@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    height: 105vh;
+    padding: 50px 5%;
+    background-color: #1f242d;
+   
+}
+.container{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    background:url("bg.jpg") #1f242d no-repeat center ;
+    background-color:rgb(8, 8, 45);
+    border-radius: 30px;
+    display: flex;
+    border: 2px solid #7cf03d;
+    box-shadow: 0 0 30px #7cf03d;
+    display: flex;
+}
+h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: absolute;
+    left: 45%;
+    top: 9%;
+    text-decoration: underline solid #7cf03d;
+
+}
+.first{
+    height: 10vh;
+    padding: 50px 5%;
+    box-sizing: border-box;
+    
+}
+.container .first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 60vh;
+        top: 10%;
+     }
+.first{
+         width: 900px;
+         height: 100px;
+         border-radius: 8px;
+         display:inline-block;
+         color: #fff;
+         background-color: rgb(182, 137, 137);
+         background: rgba(255,255,255,0.2);
+         border: 1px solid rgba(255,255,255,0.5);
+         align-items: center;
+         position: absolute;
+         left: 20%;
+         top: 30%;
+         flex-direction: column;
+         border: transparent;
+         backdrop-filter: blur(30px);
+}
+.first:hover{
+    background: rgba(255,255,255,0.1);
+    border: 1px solid transparent;
+}
+.one{
+    position: absolute;
+    top: 20%;
+}
+a{
+   text-decoration: none;
+   color: white;
+   position: absolute;
+   top: 5%;
+   left: 90%; 
+   font-family:'poppins'sans-serif;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 10%; 
+    font-family:'poppins'sans-serif;
+ }
